@@ -1,0 +1,45 @@
+.footer {
+    width: 100%; 
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: small;
+    padding-top: 1rem;
+}
+
+.line-above{
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+}
+.copyright{
+    margin-left: 2rem;
+}
+.call, .email {
+    margin-left: 17rem;
+    padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .call, .email {
+        margin-left: auto; 
+        padding: 1rem; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        flex-direction: column; 
+        height: auto; 
+        text-align: center; 
+    }
+
+    .line-above {
+        margin-top: 0.5rem; 
+    }
+
+    .call, .email {
+        margin-left: 0;
+        padding: 1rem; 
+    }
+}

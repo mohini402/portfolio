@@ -1,0 +1,103 @@
+#intro{
+    display: flex;
+    align-items: center;
+    margin-right: 0rem;
+    width: 100%;
+}
+
+.introContent{
+    height: 100vh;
+    width: 100%;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    flex-direction: column;
+    margin-right: 15rem;
+}
+
+.introText
+{
+    font-size: 1.75rem;
+    padding-bottom: 1rem;
+    padding-left: 6.5rem;
+    margin-top: 1rem;
+    position: relative
+}
+.introPara{
+    font-weight: 100;
+    font-size: 20px;
+    padding-left: 6.5rem;
+    position: relative;
+}
+
+.hello{
+    letter-spacing: -0.02rem;
+    font-size: 80px;
+    font-weight: bolder;
+    padding-left: 2rem;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.container{
+    background-color: bisque;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    position: relative;
+}
+
+.btn{
+    background: transparent;
+    margin-left: 3.9rem;
+    margin-top: 1.2rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btnImg{
+    height: 25px;
+    width: 25px;
+}
+
+.instabtn, .facebtn{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    #intro{
+        flex-direction: column;
+    }
+
+    .introContent {
+        font-size: 2rem;
+        margin-right: 0rem;
+      }
+    
+      .hello {
+        padding-left: 0;
+        font-size: 30px;
+        top: -6rem;
+      }
+      
+      .introText {
+        padding-left: 0;
+        font-size: 25px;
+        top: -4rem;
+      }
+      .introPara {
+        padding-left: 0;
+        font-size: 20px;
+        top: -3rem;
+      }
+
+      .container{
+        right: 4.7rem;
+      }
+
+      .forMedia{
+        position: relative;
+        left: 142px;
+      }
+}

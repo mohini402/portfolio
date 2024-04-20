@@ -1,0 +1,145 @@
+.education-container {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+    background-color: bisque;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.skills-container {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.certifications-container {
+    margin-top: 2rem;
+}
+
+.certificates {
+    text-align: center;
+    margin-top: -2.2rem;
+}
+
+.one{
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.two{
+    margin-top: 2.5rem;
+}
+
+.session{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.list li, .clist li {
+    padding-top: 1rem;
+    list-style: none;
+}
+
+.clist{
+    margin-top: 3.5rem;
+}
+
+.resumeBtn {
+    position: relative;
+    background-color: powderblue;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin: 2rem auto;
+    display: block;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.college {
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+    margin-top: 0.2rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.resumestyle {
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* For large screens */
+@media screen and (min-width: 1200px) {
+    .education-container {
+        width: 90%;
+    }
+
+    .education-list{
+        margin-left: 1rem;
+    }
+    .college{
+        text-align: center;
+    }
+
+    .session{
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .one{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+
+    .two{
+        margin-top: 2.5rem;
+    }
+
+    .list-container {
+        margin-left: 2rem;
+    }
+
+    .list li, .clist li{
+        padding-top: 1rem;
+        list-style: none;
+    }
+
+    .clist{
+        margin-top: 3.5rem;
+    }
+
+    .resumeBtn {
+        left: auto;
+        margin: 2rem 0;
+    }
+
+    .resumestyle {
+        margin-left: 10rem;
+        margin-right: 8rem;
+    }
+
+    h2{
+        margin-left: 2.5rem;
+        font-size: 1.7rem;
+    }
+}

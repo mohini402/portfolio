@@ -1,0 +1,57 @@
+.contact{
+    margin-top: 2rem;
+}
+
+.contactForm{
+    margin-top: 2rem;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    max-width: 84rem;
+    background-color: bisque;
+    border: none
+}
+
+#talk{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.email1, .msg, .firstName{
+    font-size: medium;
+    width: 100%;
+    max-width: 18rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: black;
+    border: none;
+    background: silver;
+}
+
+.submitBtn{
+    font-weight: bold;
+    background: rgb(247,165,112);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+    cursor: pointer;
+}
+
+.msg1 {
+    display: none; /* Hide the message by default */
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.msgAppear{
+    display: block;
+}
+
+.contactBtn button{
+    box-shadow: 1px 1px 4px 1px rgb(247,165,112);
+}
