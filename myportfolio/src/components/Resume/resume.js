@@ -44,7 +44,7 @@ const Resume = () => (
         <div className="certificates">
           <ul className="clist">
             <li>
-              <a href="https://drive.google.com/file/d/1BxoUVqYGBS8-xwiGvZPfmRhq4USL6DHx/view">
+              <a style={{color:'blue'}} href="https://drive.google.com/file/d/1BxoUVqYGBS8-xwiGvZPfmRhq4USL6DHx/view">
                 Udemy Web Development Bootcamp Course Certificate
               </a>
             </li>
@@ -54,7 +54,7 @@ const Resume = () => (
               </a>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/1R7PJY_3tPAHzaIawrjxZZvtD3Yrl8vX7/view">
+              <a style={{color:'blue'}} href="https://drive.google.com/file/d/1R7PJY_3tPAHzaIawrjxZZvtD3Yrl8vX7/view">
                 Problem Solving Certificate From Hackerrank
               </a>
             </li>

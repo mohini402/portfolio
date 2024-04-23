@@ -17,8 +17,13 @@
 }
 
 #talk{
-    margin-top: 1.5rem;
+    margin-top: 8rem;
     text-align: center;
+}
+
+.talk1{
+    font-size: 2rem;
+    font-family: sans-serif;
 }
 
 .email1, .msg, .firstName{

@@ -6,12 +6,12 @@ const Footer=()=>{
             <p className="copyright" >Copyright &#169; 2024 Mohini Agarwal. All right received.</p>
             <div className="call" >
             <h2>Call</h2><br/>
-            <p style={{fontSize:'15px'}}>+91 8273242955</p>
+            <p  className="content">+91 8273242955</p>
             </div>
 
             <div className="email">
                 <h2>Email</h2><br/>
-                <p style={{fontSize:'15px'}}>mohiniagarwal1408@gmail.com</p>
+                <p className="content">mohiniagarwal1408@gmail.com</p>
             </div>
         </footer>
     );

@@ -1,16 +1,19 @@
 .navbar{
-    height: 5rem;
+    position: fixed;
+    top: 0;
+    height: 6rem;
     width: 100vw;
     margin: 0;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
-
+    background-color: whitesmoke;
+    z-index: 1000;
 }
 
 .desktopMenu{
     margin-left: 38rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 
 .menu {
@@ -22,17 +25,11 @@
   }
 
   .hamburger {
+    margin-top: 0.5rem;
     display: block;
     cursor: pointer;
-    margin-right: 1.3rem;
+    margin-right: 1.4rem;
     color: blueviolet;
-  }
-  
-  .line {
-    width: 25px;
-    height: 3px;
-    background-color: purple;
-    margin: 5px 0;
   }
   
 .desktopMenuListItem{
@@ -40,6 +37,7 @@
     cursor: pointer;
     font-size: 1rem;
     font-family: sans-serif;
+    justify-content: space-between;
 }
 
 .name{
@@ -57,36 +55,43 @@
     border-bottom: 2px solid blueviolet ;
 }
 
-@media screen and (max-width:768px) {
-  .desktopMenu{
+@media (max-width:768px) {
+  .desktopMenu {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    top: 70px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80px;
     right: 0px;
-    width: 300px;
-    height: 100vh;
-    background: #2a322a;
-    box-shadow: 0 40px 60px rgb(0, 0, 0,0.1);
-    padding: 40px 0 0 10px;
-}
-.hamburger{
-  display: block;
+    width: 100vw;
+    height: 50%;
+    background: lightslategray;
+    padding: 8rem 0 8rem 1rem;
+    z-index: 999;
+    animation: slideInTop 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .desktopMenuListItem{
-  margin: 1rem;
+  margin-top: 2rem;
   cursor: pointer;
   font-size: 1rem;
   font-family: sans-serif;
 }
 
-.desktopMenuListItem:hover{
-  color:blueviolet;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid blueviolet ;
+.name{
+  font-size: 1.3rem;
+}
+
+@keyframes slideInTop {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 }

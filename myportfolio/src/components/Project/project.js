@@ -10,7 +10,7 @@ const Practice = () => {
     <div className="animation">
       <h1
         style={{
-          marginTop: "0.2rem",
+          marginTop: "8rem",
           paddingLeft: "1rem",
           textAlign: "center",
           fontSize: "30px",
